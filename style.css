@@ -22,7 +22,7 @@
   .top-navigation-left{
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 1rem;
   }
 
   .top-navigation-links{
@@ -49,7 +49,6 @@
   }
 
   .top-navigation-right button{
-    border: none;
     border: 1px solid black;
     border-radius: 15px;
     background-color: white;
@@ -60,12 +59,43 @@
 
   .landingpage-body{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 30px;
 
   }
 
-  .landingpage-body-right img{
-    width: 300px;
-
+  .landingpage-body-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
   }
+
+  .landingpage-body-left h1{
+    font-size: 62px;
+    font-weight: bold;
+    
+  }
+
+  .landingpage-body-left p{
+    width: 560px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .landingpage-body-right img{
+    width: 500px;
+  }
+
+  .landingpage-body-left button{
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 1em;
+    cursor: pointer;
+  }
+
+
   
