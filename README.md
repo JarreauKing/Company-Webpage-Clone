@@ -1,3 +1,3 @@
-# Simple-Webpage
+# Company Webpage Clone
 
 ## Overview
