@@ -1,3 +1,3 @@
-# Company Webpage Clone
+# Landingpage Clone
 
 ## Overview
