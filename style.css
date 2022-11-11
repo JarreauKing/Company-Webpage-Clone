@@ -58,4 +58,14 @@
     cursor: pointer;
   }
 
+  .landingpage-body{
+    display: flex;
+    margin-top: 30px;
+
+  }
+
+  .landingpage-body-right img{
+    width: 300px;
+
+  }
   
